@@ -4,7 +4,9 @@
 
 #include <iostream>
 
-#define DIR "C:/Users/deftl/source/repos/drone/commands.txt"
+
+//add a proper path for your commands file
+#define DIR "../exampleCommands.txt"
 
 
 int main() {
