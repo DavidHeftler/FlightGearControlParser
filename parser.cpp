@@ -1,17 +1,7 @@
 #include "parser.h"
 #include "stringUtil.h"
-#include "commands.h"
 #include "commandsMap.h"
-
 #include <iostream>
-#include <string>
-
-
-
-Parser& Parser::Instance() {
-	static Parser instance;
-	return instance;
-}
 
 
 
@@ -48,6 +38,7 @@ void Parser::doParse(std::vector<std::string>& fileTxt) {
 	}
 	return;
 }
+
 
 
 
