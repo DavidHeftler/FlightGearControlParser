@@ -1,0 +1,2 @@
+# FlightGearControlParser
+A Parser for commands written by the user, aimed to control the airplane of the FlightGear airplane simulator.  The program expects a .txt file of flight commands written in a simple user-language (with some minimal easy-to-understand rules).  The script commands will be parsed and executed, line after line.  The user will be able, upon opening his FlightGear program and starting an airplane, to see his airplane flying according to his commands, on the FlightGear screen.
